@@ -1,5 +1,5 @@
 body {
-color: #D3D3D3; /* Otro tono de gris claro */
+    color: #D3D3D3; /* Color gris claro   color: #D3D3D3;  Otro tono de gris claro */
     margin: 0;
     padding: 0;
     background-image: url('fondo_cajas.jpg');
@@ -8,7 +8,7 @@ color: #D3D3D3; /* Otro tono de gris claro */
     background-position: center; /* Centra la imagen en la pantalla */
 
     font-family: Arial, sans-serif;
-    padding: 25px;
+    padding: 32px;
 }
 
 
@@ -21,6 +21,32 @@ color: #D3D3D3; /* Otro tono de gris claro */
 }
 
 
+a {
+    color: #D3D3D3; /* Cambia este código hexadecimal por el color que prefieras */
+    
+}
+
+
+label {
+    color: #FFFFFF; /* Cambia el color del texto de las etiquetas a negro */
+    font-size: 21px; /* Cambia el tamaño de fuente de las etiquetas */
+font-weight: bold; /* Pone en negrita el texto de las etiquetas */
+}
+
+
+
+input[type="text"],
+input[type="password"] {
+    color: #FFFFFF; /* Cambia el color del texto en los campos de entrada a negro */
+    border: 3px solid #D3D3D3; /* Opcional: Cambia el color del borde de los campos de entrada a negro */
+font-weight: bold; /* Pone en negrita el texto de las etiquetas */
+    font-size: 21px; /* Cambia el tamaño de fuente en los campos de entrada */
+    padding: 8px; /* Opcional: Ajusta el relleno dentro de los campos de entrada para mejor apariencia */
+    width: 100%; /* Opcional: Ajusta el ancho de los campos de entrada para que se adapten al contenedor */
+
+
+}
+
 
 
 
@@ -29,7 +55,7 @@ color: #D3D3D3; /* Otro tono de gris claro */
 
 h1 {
 color: #E0E0E0; /* Un gris claro */
-    font-size: 25px;
+    font-size: 28px;
 }
 
 form {
