@@ -13,12 +13,14 @@ color: #D3D3D3; /* Otro tono de gris claro */
 
 
 .corner-image {
-    position: relative;  /* Posiciona la imagen de forma absoluta */
-    bottom: 8px;        /* Coloca la imagen en la esquina inferior */
-    left: 15px;         /* Coloca la imagen en la esquina derecha */
-    width: 170px;         /* Define un tamaño pequeño para la imagen */
+    position: absolute;  /* Posiciona la imagen de forma absoluta */
+    bottom: 8vh;        /* Coloca la imagen en la esquina inferior */
+    left: 7vh;         /* Coloca la imagen en la esquina derecha */
+    width: 20vh;         /* Define un tamaño pequeño para la imagen */
     height: auto;        /* Mantiene la proporción de la imagen */
 }
+
+
 
 
 
