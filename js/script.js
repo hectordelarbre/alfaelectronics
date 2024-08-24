@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const password = document.getElementById('password').value;
 
             // Credenciales codificadas
-            const validUsername = '123';
-            const validPassword = '123';
+            const validUsername = 'INVERSIONES';
+            const validPassword = 'La_ventana_2031';
             
             if (username === validUsername && password === validPassword) {
                 // Redirigir a la página generadora de códigos
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     if (timerElement) {
-        let timeRemaining = 10 * 1; // 10 minutos en segundos
+        let timeRemaining = 10 * 60; // 10 minutos en segundos
         const interval = setInterval(() => {
             const minutes = Math.floor(timeRemaining / 60);
             const seconds = timeRemaining % 60;
